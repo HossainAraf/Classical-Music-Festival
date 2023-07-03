@@ -11,7 +11,6 @@
 
 .flex-row {
   display: flex;
-  justify-content: space-between;
 }
 
 .flex-col {
@@ -19,10 +18,12 @@
   flex-direction: column;
 }
 
-header {
-  min-height: 15rem;
-  padding-bottom: 2%;
-  margin-bottom: 2%;
+/* header {
+} */
+
+.fa-solid {
+  padding-left: 1rem;
+  padding-top: 0.8rem;
 }
 
 .logo {
@@ -36,6 +37,31 @@ nav {
   align-items: flex-start;
 }
 
+#menu {
+  display: none;
+  list-style-type: none;
+  margin: 3% 3%;
+  padding: 13% 8%;
+  width: 100%;
+  height: 100%;
+  background-color: #ffa500;
+  z-index: 111;
+  color: #fff;
+  opacity: 0.9;
+}
+
+#menu li {
+  margin-bottom: 15%;
+}
+
+#menu button {
+  margin-bottom: 100rem;
+  width: 33%;
+  height: 2rem;
+  border-color: #fff;
+  border-radius: 5%;
+}
+
 .background {
   background-image: url("img/header_back.jpg");
   background-repeat: no-repeat;
@@ -46,24 +72,36 @@ nav {
   position: relative;
 }
 
-.fa-solid {
-  padding-left: 1rem;
-  padding-top: 0.8rem;
-}
-
 #intro {
   padding-top: 11%;
   padding-left: 3%;
-  position: absolute;
-  top: 4%;
-  left: 1%;
 }
 
 #intro h3 {
   color: #f4653a;
+  position: absolute;
+  top: 11%;
+  left: 2%;
 }
 
 #intro h1 {
   color: #fb1401;
   font-weight: 900;
+  position: absolute;
+  top: 14%;
+  left: 4%;
+}
+
+#intro p {
+  position: absolute;
+  top: 28%;
+  left: 4%;
+  border: 2px solid #fff;
+  color: #515151;
+}
+
+@media only screen and (min-width: 768px) {
+  #menu {
+    display: flex;
+  }
 }
