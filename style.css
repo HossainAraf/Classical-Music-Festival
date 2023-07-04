@@ -79,7 +79,7 @@ nav button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left 0 top 0;
-  min-height: 15rem;
+  min-height: 25rem;
   opacity: 0.1;
   position: relative;
 }
@@ -92,24 +92,44 @@ nav button {
 #intro h3 {
   color: #f4653a;
   position: absolute;
-  top: 25%;
-  left: 12%;
+  top: 12%;
+  left: 7%;
 }
 
 #intro h1 {
   color: #fb1401;
   font-weight: 900;
   position: absolute;
-  top: 29%;
-  left: 12.5%;
+  top: 15%;
+  left: 9%;
+  background: transparent;
 }
 
 #intro p {
   position: absolute;
   top: 28%;
-  left: 4%;
-  border: 2px solid #fff;
+  left: 9%;
+  border: 4px solid #fff;
+  color: #575757;
+  line-height: 152%;
+  padding-right: 1%;
+  margin-right: 2.5%;
+}
+
+#intro h2 {
   color: #515151;
+  font-weight: 790;
+  position: absolute;
+  top: 50%;
+  left: 9%;
+}
+
+#intro h5 {
+  font-weight: bolder;
+  position: absolute;
+  top: 55%;
+  left: 9%;
+  color: #5c5c5c;
 }
 
 @media only screen and (min-width: 768px) {
@@ -176,5 +196,31 @@ nav button {
   nav button {
     width: 50%;
     margin-bottom: 0.01rem;
+  }
+
+  #intro h3 {
+    top: 20%;
+    left: 12%;
+  }
+
+  #intro h1 {
+    top: 24%;
+    left: 13%;
+    background: transparent;
+  }
+
+  #intro p {
+    top: 40%;
+    left: 12.5%;
+  }
+
+  #intro h2 {
+    top: 60%;
+    left: 12.5%;
+  }
+
+  #intro h5 {
+    top: 65%;
+    left: 12.5%;
   }
 }
