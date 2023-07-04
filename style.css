@@ -49,19 +49,18 @@ nav {
 #menu {
   display: none;
   list-style-type: none;
-  margin: 3% 3%;
   padding: 13% 8%;
-  /* width: 100%;
-  height: 100%; */
   background-color: #ffa500;
   z-index: 111;
   color: #fff;
   opacity: 0.9;
-  width: -webkit-fill-available;
+  width: 100%;
 }
 
 #menu li {
-  margin-bottom: 15%;
+  margin-bottom: 8%;
+  width: 52%;
+  font-size: 12px;
 }
 
 nav button {
@@ -72,6 +71,7 @@ nav button {
   border: 3px solid #f04833;
   border-radius: 5%;
   padding: 1%;
+  font-size: 12px;
 }
 
 .background {
@@ -85,23 +85,23 @@ nav button {
 }
 
 #intro {
-  padding-top: 11%;
+  /* padding-top: 11%; */
   padding-left: 3%;
 }
 
 #intro h3 {
   color: #f4653a;
   position: absolute;
-  top: 11%;
-  left: 2%;
+  top: 25%;
+  left: 12%;
 }
 
 #intro h1 {
   color: #fb1401;
   font-weight: 900;
   position: absolute;
-  top: 14%;
-  left: 4%;
+  top: 29%;
+  left: 12.5%;
 }
 
 #intro p {
@@ -174,7 +174,7 @@ nav button {
   }
 
   nav button {
-    width: auto;
+    width: 50%;
     margin-bottom: 0.01rem;
   }
 }

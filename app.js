@@ -1,5 +1,4 @@
 // Humbarger Menu
-const nav = document.querySelector('nav');
 const menu = document.querySelector('#menu');
 const humbargerIcon = document.querySelector('.fa-solid');
 const cancelIcon = document.querySelector('.fa-xmark');
