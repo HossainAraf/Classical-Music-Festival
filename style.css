@@ -68,8 +68,10 @@ nav button {
   margin-bottom: 100rem;
   width: 33%;
   height: 2rem;
-  border-color: #fff;
+  background-color: #fff;
+  border: 3px solid #f04833;
   border-radius: 5%;
+  padding: 1%;
 }
 
 .background {
@@ -145,7 +147,7 @@ nav button {
 
   #logo {
     display: flex;
-    height: 1.7rem;
+    height: 2rem;
     flex-basis: 20%;
     padding-left: 9%;
   }
