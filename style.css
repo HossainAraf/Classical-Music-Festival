@@ -107,7 +107,7 @@ nav button {
 
 #intro p {
   position: absolute;
-  top: 28%;
+  top: 31%;
   left: 9%;
   border: 4px solid #fff;
   color: #575757;
@@ -130,6 +130,61 @@ nav button {
   top: 55%;
   left: 9%;
   color: #5c5c5c;
+}
+
+#main-program {
+  background-image: url('img/main-mobile.png');
+  background-position: left 0 top 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+#main-program .program {
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.5% 2%;
+  padding: 3%;
+  background-color: #3d4047;
+  filter: opacity(0.7);
+  min-height: 4rem;
+}
+
+#main-program .program h2 {
+  color: #fff;
+}
+
+.fa-horizontal-rule {
+  color: #963c36;
+}
+
+#main-program .program img {
+  flex-basis: 10%;
+  width: 3rem;
+}
+
+#main-program .program h3 {
+  flex-basis: 20%;
+  padding-right: 3%;
+}
+
+#main-program .program p {
+  flex-basis: 50%;
+  color: #fff;
+}
+
+.btn-join {
+  justify-content: center;
+  align-items: center;
+}
+
+#join {
+  width: 50%;
+  height: 5rem;
+  padding-bottom: 20px;
+  background-color: #ff4f38;
 }
 
 @media only screen and (min-width: 768px) {
