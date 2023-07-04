@@ -50,9 +50,9 @@ nav {
   display: none;
   list-style-type: none;
   padding: 13% 8%;
-  background-color: #ffa500;
+  background-color: #fff;
   z-index: 111;
-  color: #fff;
+  color: #8a8a8a;
   opacity: 0.9;
   width: 100%;
 }
@@ -60,7 +60,7 @@ nav {
 #menu li {
   margin-bottom: 8%;
   width: 52%;
-  font-size: 12px;
+  font-size: 24px;
 }
 
 nav button {
@@ -152,6 +152,10 @@ nav button {
   min-height: 4rem;
 }
 
+#main-program .program-headline {
+  background-color: transparent;
+}
+
 #main-program .program h2 {
   color: #fff;
 }
@@ -168,6 +172,7 @@ nav button {
 #main-program .program h3 {
   flex-basis: 20%;
   padding-right: 3%;
+  color: #ff5438;
 }
 
 #main-program .program p {
@@ -181,10 +186,13 @@ nav button {
 }
 
 #join {
-  width: 50%;
+  width: 75%;
   height: 5rem;
-  padding-bottom: 20px;
+  padding: 2%;
   background-color: #ff4f38;
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 @media only screen and (min-width: 768px) {
