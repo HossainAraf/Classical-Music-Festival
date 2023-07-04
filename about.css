@@ -40,3 +40,30 @@
   text-align: center;
   color: #5f5f5f;
 }
+
+.logo-wrapper {
+  justify-content: center;
+  align-items: center;
+  border: 15px solid #fff;
+  position: relative;
+  flex-basis: 50%;
+}
+
+#logo-intro {
+  flex-basis: 50%;
+}
+
+.logo-intro {
+  padding: 10% 15%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-wrapper img {
+  flex-basis: 100%;
+}
+
+.fa-horizontal-rule {
+  display: flex;
+}
