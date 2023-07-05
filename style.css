@@ -63,6 +63,10 @@ nav {
   font-size: 24px;
 }
 
+#menu li a {
+  text-decoration: none;
+}
+
 nav button {
   margin-bottom: 100rem;
   width: 33%;
