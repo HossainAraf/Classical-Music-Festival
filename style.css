@@ -109,6 +109,15 @@ nav button {
   background: transparent;
 }
 
+.speakers-detail p {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color: #000;
+}
+
 #intro p {
   position: absolute;
   top: 31%;
@@ -160,12 +169,27 @@ nav button {
   background-color: transparent;
 }
 
+#featured-heading h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #000;
+}
+
 #main-program .program h2 {
   color: #fff;
 }
 
 .fa-horizontal-rule {
   color: #963c36;
+}
+
+.speakers-photo img {
+  width: 5rem;
+  height: 4rem;
+  border: 2px solid #1a1313;
 }
 
 #main-program .program img {
@@ -202,31 +226,49 @@ nav button {
 #featured-heading {
   justify-content: center;
   align-items: center;
-  padding-bottom: 500px;
+  padding-bottom: 25%;
 }
 
 #featured-speakers {
   display: flex;
   flex-direction: column;
+  margin-top: 5%;
 }
 
 .speakers {
   display: flex;
+  margin-bottom: 5%;
 }
 
 .speakers-photo {
-  flex-basis: 30%;
-}
-
-.speakers-photo img {
-  width: 107px;
-  height: 106px;
+  flex-basis: 27%;
+  padding: 3% 0%;
+  padding-left: 5%;
 }
 
 .speakers-detail {
-  flex-basis: 70%;
+  flex-basis: 57%;
 }
 
+.speakers-detail h4 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000;
+}
+
+.speakers-detail h6 {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #f78c89;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
 
 @media only screen and (min-width: 768px) {
   #header-top {
