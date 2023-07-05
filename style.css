@@ -199,6 +199,35 @@ nav button {
   line-height: 28px;
 }
 
+#featured-heading {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 500px;
+}
+
+#featured-speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+.speakers {
+  display: flex;
+}
+
+.speakers-photo {
+  flex-basis: 30%;
+}
+
+.speakers-photo img {
+  width: 107px;
+  height: 106px;
+}
+
+.speakers-detail {
+  flex-basis: 70%;
+}
+
+
 @media only screen and (min-width: 768px) {
   #header-top {
     display: flex;
