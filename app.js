@@ -19,4 +19,22 @@ function hide() {
 humbargerIcon.addEventListener('click', show);
 cancelIcon.addEventListener('click', hide);
 
-// Featured speakersgit
+// Featured speakers
+const featuredContainer = document.querySelector('#featured-speakers');
+
+let features = [
+  {
+    id: 0,
+    photo: 'img/bonna.jpg',
+    name: 'Rezwana Choudhury Bannya',
+    desig: 'Bangladeshi singer and academic. She is an exponent of Rabindra Sangeet.',
+    desc: ' She is regarded as a legendary Tagore singer by Tagore music aficionados all around the world.'
+  },
+  {
+    id: 0,
+    photo: 'img/bonna.jpg',
+    name: 'Nicola Joy Nadia Benedetti',
+    desig: 'Italian-Scottish classical solo violinist and festival director.',
+    desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
+  },
+]
