@@ -41,27 +41,46 @@
   color: #5f5f5f;
 }
 
-.logo-wrapper {
+.logo-wrapper,
+.img-wrapper {
   justify-content: center;
   align-items: center;
-  border: 15px solid #fff;
+  border: 1px solid #f7f7f7;
   position: relative;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin: 0 5%;
+  overflow: hidden;
+}
+
+.logo-wrapper img,
+.img-wrapper img {
+  width: 100%;
+}
+
+#logo-intro,
+#previous-work {
   flex-basis: 50%;
 }
 
-#logo-intro {
-  flex-basis: 50%;
+#logo-intro h3,
+#previous-work h3 {
+  font-size: 20px;
+  padding: 7% 7%;
 }
 
-.logo-intro {
-  padding: 10% 15%;
+#logo-intro p,
+#previous-work p {
+  font-size: 16px;
+  padding: 7% 7%;
+}
+
+.logo-intro,
+.previous-work {
+  padding: 1% 1%;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.logo-wrapper img {
-  flex-basis: 100%;
 }
 
 .fa-horizontal-rule {
