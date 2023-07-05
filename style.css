@@ -90,7 +90,8 @@ nav button {
 }
 
 #intro {
-  padding-top: 20%;
+  padding-top: 0;
+  padding-bottom: 13%;
   padding-left: 3%;
 }
 
@@ -324,7 +325,7 @@ nav button {
   nav {
     display: flex;
     padding-left: 5%;
-    padding-top: 1%;
+    padding-top: 2%;
     max-height: 2rem;
   }
 
@@ -368,24 +369,24 @@ nav button {
   }
 
   #intro h3 {
-    top: 20%;
+    top: 25%;
     left: 12%;
   }
 
   #intro h1 {
-    top: 24%;
+    top: 29%;
     left: 13%;
     background: transparent;
     font-size: 2.5rem;
   }
 
   #intro p {
-    top: 40%;
+    top: 50%;
     left: 12.5%;
   }
 
   #intro h2 {
-    top: 56%;
+    top: 61%;
     left: 12.5%;
     font-family: "Gothic A1", sans-serif;
     font-size: 42px;
@@ -395,8 +396,49 @@ nav button {
   }
 
   #intro h5 {
-    top: 65%;
+    top: 70%;
     left: 12.5%;
     font-size: 16px;
+  }
+
+  #program-container {
+    flex-direction: row;
+  }
+
+  #main-program .program img {
+    flex-basis: 10%;
+    width: 4rem;
+  }
+
+  #main-program .program h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+
+  #main-program .program p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
+  .btn-join {
+    display: none;
+  }
+
+  #main-program .program {
+    /* justify-content: center; */
+
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+
+    /* min-height: 4rem; */
+    flex-direction: column;
   }
 }
