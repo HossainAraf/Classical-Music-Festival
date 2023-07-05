@@ -203,6 +203,10 @@ nav button {
   color: #ff5438;
 }
 
+#btn-more p {
+  padding-right: 2%;
+}
+
 #main-program .program p {
   flex-basis: 50%;
   color: #fff;
@@ -268,6 +272,17 @@ nav button {
   color: #f78c89;
   margin-top: 1%;
   margin-bottom: 2%;
+}
+
+#btn-more {
+  width: 356px;
+  height: 38px;
+  padding: 12px 0 13px 0;
+  border-radius: 4px;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
