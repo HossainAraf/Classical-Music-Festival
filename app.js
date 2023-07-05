@@ -18,3 +18,5 @@ function hide() {
 
 humbargerIcon.addEventListener('click', show);
 cancelIcon.addEventListener('click', hide);
+
+// Featured speakersgit
