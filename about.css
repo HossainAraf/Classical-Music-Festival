@@ -1,8 +1,7 @@
 
 #intro {
-  background-color: #fff;
   text-align: center;
-  padding: 5%;
+  padding: 1%;
 }
 
 .footer-heading h3 {
@@ -12,32 +11,35 @@
 }
 
 #intro h3 {
-  position: absolute;
-  top: 11%;
   padding: 1% 18%;
+}
+
+#intro h5 {
+  display: none;
 }
 
 #intro p {
   background-color: #fff;
   text-align: center;
   padding: 5%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.06em;
 }
 
 #intro h6 {
-  position: absolute;
-  top: 55%;
   padding: 1% 5%;
   font-weight: 700;
   font-size: 12px;
   color: #7a7a7a;
-  line-height: 22px;
-  letter-spacing: 0.02em;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 #intro a {
-  padding: 5%;
-  position: absolute;
-  top: 59%;
+  padding: 0;
   background-color: transparent;
   align-self: center;
   font-size: 12px;
@@ -46,6 +48,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #5f5f5f;
+  margin-bottom: 33%;
 }
 
 .logo-wrapper,
@@ -76,6 +79,11 @@
 #previous-work h3 {
   font-size: 20px;
   padding: 7% 7%;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2c2c2c;
 }
 
 #logo-intro p,
@@ -136,4 +144,17 @@
 
 .fa-dash {
   color: #f7f7f7;
+}
+
+@media only screen and (min-width: 768px) {
+  #intro h5 {
+    display: flex;
+    position: absolute;
+    top: 11%;
+    padding: 1% 18%;
+  }
+
+  #intro h3 {
+    display: none;
+  }
 }
