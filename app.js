@@ -37,6 +37,34 @@ const featuresList = [
     desig: 'Italian-Scottish classical solo violinist and festival director.',
     desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
   },
+  {
+    id: 0,
+    photo: 'img/Nicky.jpg',
+    name: 'Nicola Joy Nadia Benedetti',
+    desig: 'Italian-Scottish classical solo violinist and festival director.',
+    desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
+  },
+  {
+    id: 0,
+    photo: 'img/Nicky.jpg',
+    name: 'Nicola Joy Nadia Benedetti',
+    desig: 'Italian-Scottish classical solo violinist and festival director.',
+    desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
+  },
+  {
+    id: 0,
+    photo: 'img/Nicky.jpg',
+    name: 'Nicola Joy Nadia Benedetti',
+    desig: 'Italian-Scottish classical solo violinist and festival director.',
+    desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
+  },
+  {
+    id: 0,
+    photo: 'img/Nicky.jpg',
+    name: 'Nicola Joy Nadia Benedetti',
+    desig: 'Italian-Scottish classical solo violinist and festival director.',
+    desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
+  },
 ];
 
 let featureGenerator = '';
