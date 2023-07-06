@@ -189,10 +189,14 @@ nav button {
 
 #main-program .program h2 {
   color: #fff;
+  position: relative;
 }
 
 .fa-horizontal-rule {
   color: #963c36;
+  position: absolute;
+  top: 15%;
+  left: 40%;
 }
 
 .speakers-photo img {
@@ -481,6 +485,10 @@ footer {
     margin-top: 10%;
   }
 
+  #main-program .program-headline img {
+    margin-top: 0;
+  }
+
   #main-program .program h3 {
     font-size: 24px;
     font-weight: 700;
@@ -510,7 +518,14 @@ footer {
     margin-top: 5%;
   }
 
-  #see-program h3 {
+  #see-program a {
+    text-decoration-line: underline;
+    text-decoration-color: #3b3e45;
+    text-decoration-thickness: 2.5px;
+    text-underline-position: under;
+  }
+
+  #see-program a h3 {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -609,6 +624,7 @@ footer {
     letter-spacing: -0.01em;
     text-align: left;
     color: #8f8f91;
+    margin-bottom: 1%;
   }
 
   #footer-bottom {

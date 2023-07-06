@@ -77,6 +77,7 @@ featuresList.forEach((feature) => {
   </div>
   <div class='speakers-detail'>
     <h4>${feature.name}</h4>
+    <img src='img/underline2.png' alt='underline'>
     <h6>${feature.desig}</h6>
     <p>${feature.desc}</p>
   </div>
