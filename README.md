@@ -33,7 +33,7 @@ It is an assignment given by Microverse.
 # 📖 Portfolio: Mobile First <a name="about-project"></a>
 
 > 'Portfolio: Mobile First' is a personal portfolio project using html and css.
-# 📗 [Live Demo](https://hossainaraf.github.io/Portfolio-Mobile-First/)
+# 📗 [Live Demo](https://hossainaraf.github.io/capstone-1/)
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -106,8 +106,6 @@ Open index.html file either directly or using live server
 - GitHub: <a href="https://github.com/HossainAraf">HossainAraf </a>
 - LinkedIn: <a href="https://linkedin.com/in/md-arafat-hossain-111403275"> Md. Arafat Hossain </a>
 
-## -Credit: <a href = "https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>, as required by the <a href="https://creativecommons.org/licenses/"> Creative Commons License</a>.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -145,6 +143,8 @@ If you like this project give a ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse team
+## -Credit: <a href = "https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>, as required by the <a href="https://creativecommons.org/licenses/"> Creative Commons License</a>.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
