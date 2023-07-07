@@ -4,11 +4,6 @@
   font-family: 'lato', sans-serif;
 }
 
-/* body {
-  display: grid;
-  grid grid-template-columns: 1fr 1fr 1fr;
-} */
-
 .flex-row {
   display: flex;
 }
@@ -60,8 +55,6 @@ nav {
   background-color: #fff;
   z-index: 111;
   color: #8a8a8a;
-
-  /* opacity: 0.9; */
   width: 100%;
 }
 
@@ -198,7 +191,6 @@ nav button {
 .speakers-photo img {
   width: 5rem;
   height: 4rem;
-  border: 2px solid #1a1313;
 }
 
 .footer-img img {
@@ -275,7 +267,6 @@ nav button {
 }
 
 .speakers:nth-child(-n+2) {
-  /* CSS properties for the first two elements */
   display: flex;
 }
 
@@ -413,6 +404,11 @@ footer {
     flex-basis: 20%;
     padding-left: 9%;
     z-index: 999999;
+  }
+
+  .logo {
+    width: 15%;
+    margin-top: -3%;
   }
 
   .fa-bars {
@@ -583,14 +579,10 @@ footer {
   }
 
   #main-program .program {
-    /* justify-content: center; */
-
     align-items: center;
     flex-wrap: nowrap;
     margin: 0.25%;
     padding: 0;
-
-    /* min-height: 4rem; */
     flex-direction: column;
     flex-basis: 20%;
   }
@@ -677,5 +669,9 @@ footer {
 
   footer {
     padding-bottom: 0.1%;
+  }
+
+  .footer-logo {
+    width: 30%;
   }
 }
