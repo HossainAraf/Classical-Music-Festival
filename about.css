@@ -1,7 +1,10 @@
-
 #intro {
   text-align: center;
   padding: 1%;
+}
+
+.home-img {
+  display: none;
 }
 
 .footer-heading h3 {
@@ -18,14 +21,24 @@
   display: none;
 }
 
+.logo-intro p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
 #intro p {
   background-color: #fff;
   text-align: center;
-  padding: 5%;
+  padding: 2% 5%;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: -0.06em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #intro h6 {
@@ -36,6 +49,7 @@
   line-height: 25px;
   letter-spacing: 0;
   text-align: center;
+  margin-top: 5%;
 }
 
 #intro a {
@@ -56,7 +70,6 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #f7f7f7;
-  position: relative;
   margin: 10%;
   overflow: hidden;
 }
@@ -68,6 +81,7 @@
 
 #previous-work-wrapper {
   border: 1px solid #f7f7f7;
+  padding-bottom: 5%;
 }
 
 #logo-intro,
@@ -78,7 +92,7 @@
 #logo-intro h3,
 #previous-work h3 {
   font-size: 20px;
-  padding: 7% 7%;
+  padding: 3% 7%;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: -0.02em;
@@ -92,12 +106,20 @@
   padding: 7% 7%;
 }
 
-.logo-intro,
+.logo-intro {
+  padding: 1% 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 15%;
+}
+
 .previous-work {
   padding: 1% 1%;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 5%;
 }
 
 .fa-horizontal-rule {
@@ -147,14 +169,85 @@
 }
 
 @media only screen and (min-width: 768px) {
+  #intro {
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    padding-top: 3%;
+  }
+
   #intro h5 {
     display: flex;
-    position: absolute;
-    top: 11%;
-    padding: 1% 18%;
+    justify-content: center;
   }
 
   #intro h3 {
     display: none;
+  }
+
+  .home-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 7%;
+    margin-right: 2.5%;
+  }
+
+  .home-img img {
+    width: 12px;
+    padding-right: 1%;
+  }
+
+  #footer-bottom p {
+    color: #fff;
+  }
+
+  #intro .home-img p {
+    font-size: 8px;
+    padding-right: 1%;
+    background-color: transparent;
+    margin-top: 0;
+    margin-left: -46px;
+    margin-right: 0;
+    border: transparent;
+    color: #000;
+  }
+
+  #intro .home-img .right-arrow {
+    width: 9px;
+  }
+
+  .previous-program {
+    width: 430px;
+    height: 236px;
+  }
+
+  .previous-work-img {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #footer-top {
+    background-color: #414246;
+    display: none;
+  }
+
+  #footer-bottom {
+    background-color: #414246;
+  }
+
+  #footer-bottom img {
+    flex-basis: 50%;
+    padding: 5.5%;
+    width: 325px;
+    height: 61px;
+  }
+
+  .previous-work {
+    margin: 2%;
+  }
+
+  #footer-bottom #footer-bottom-sub h6 {
+    color: #fff;
   }
 }

@@ -24,6 +24,7 @@ header {
   background-position: left 0 top 0;
   background-size: contain;
 }
+
 #header-top {
   display: none;
 }
@@ -32,6 +33,7 @@ header {
   display: flex;
   padding-left: 1rem;
   padding-top: 0.8rem;
+  z-index: 9999;
 }
 
 .fa-xmark {
@@ -125,8 +127,8 @@ nav button {
 #intro p {
   border: 4px solid #fff;
   line-height: 152%;
-  padding-right: 1%;
-  margin-right: 2.5%;
+  padding: 1%;
+  margin-right: 4.5%;
   font-size: 14px;
   color: #000;
   margin-top: 12%;
@@ -198,6 +200,23 @@ nav button {
   border: 2px solid #1a1313;
 }
 
+.footer-img img {
+  width: 6rem;
+  height: auto;
+  margin-top: 1%;
+}
+
+#footer-bottom p {
+  flex-basis: 50%;
+  padding: 5.5%;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #3b3e45;
+}
+
 #main-program .program img {
   flex-basis: 10%;
   width: 3rem;
@@ -250,8 +269,13 @@ nav button {
 }
 
 .speakers {
-  display: flex;
+  display: none;
   margin-bottom: 5%;
+}
+
+.speakers:nth-child(-n+2) {
+  /* CSS properties for the first two elements */
+  display: flex;
 }
 
 .speakers-photo {
@@ -316,12 +340,6 @@ footer {
   flex-wrap: wrap;
 }
 
-.footer-img img {
-  width: 6rem;
-  height: auto;
-  margin-top: 1%;
-}
-
 #footer-bottom {
   background-color: #fff;
   justify-content: space-between;
@@ -337,17 +355,6 @@ footer {
   align-items: center;
 }
 
-#footer-bottom p {
-  flex-basis: 50%;
-  padding: 5.5%;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 13px;
-  letter-spacing: -0.01em;
-  text-align: left;
-  color: #3b3e45;
-}
-
 #footer-bottom #footer-bottom-sub h6 {
   display: none;
 }
@@ -356,6 +363,7 @@ footer {
   header {
     background-size: cover;
   }
+
   #header-top {
     display: flex;
     justify-content: flex-end;
@@ -378,6 +386,14 @@ footer {
     color: #fff;
   }
 
+  .speakers-detail p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    text-align: left;
+  }
+
   #header-top p {
     color: #fff;
     font-size: 0.6rem;
@@ -386,8 +402,6 @@ footer {
 
   nav {
     display: flex;
-    /* padding-left: 5%; */
-    /* padding-top: 2%; */
     background-color: #fff;
     align-items: center;
   }
@@ -436,11 +450,30 @@ footer {
     padding-left: 12%;
     padding-top: 8%;
     padding-right: 30%;
-}
+  }
+
+  .footer-heading h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #8f8f91;
+    margin-bottom: 1%;
+  }
 
   #intro h3 {
     top: 25%;
     left: 12.75%;
+  }
+
+  #see-program a h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #fff;
   }
 
   #intro h1 {
@@ -483,6 +516,15 @@ footer {
     flex-direction: row;
   }
 
+  .speakers-photo img {
+    width: 10rem;
+    height: 11rem;
+  }
+
+  .footer-img img {
+    width: 8rem;
+  }
+
   #main-program .program img {
     flex-basis: 10%;
     width: 4rem;
@@ -500,6 +542,15 @@ footer {
     letter-spacing: -0.01em;
     text-align: left;
     margin: 5% 0;
+  }
+
+  #footer-bottom p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000;
   }
 
   #main-program .program p {
@@ -527,15 +578,6 @@ footer {
     text-decoration-color: #3b3e45;
     text-decoration-thickness: 2.5px;
     text-underline-position: under;
-  }
-
-  #see-program a h3 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    text-align: left;
-    color: #fff;
   }
 
   #main-program .program {
@@ -580,11 +622,6 @@ footer {
     padding-left: 2%;
   }
 
-  .speakers-photo img {
-    width: 10rem;
-    height: 11rem;
-  }
-
   .speakers-detail h4 {
     font-size: 24px;
     font-weight: 700;
@@ -601,55 +638,24 @@ footer {
     text-align: left;
   }
 
-  .speakers-detail p {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.05em;
-    text-align: left;
-  }
-
   #btn-more {
     display: none;
-  }
-
-  .footer-img img {
-    width: 8rem;
   }
 
   .footer-img {
     padding: 2% 10%;
   }
 
-  .footer-heading h3 {
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    text-align: left;
-    color: #8f8f91;
-    margin-bottom: 1%;
-  }
-
   #footer-bottom {
     padding: 2% 5%;
-  }
-
-  #footer-bottom p {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    text-align: left;
-    color: #000;
   }
 
   #footer-bottom #footer-bottom-sub h6 {
     display: flex;
     font-size: 14px;
     font-weight: 700;
-    line-height: 28px;
-    letter-spacing: -0.04em;
+    line-height: 18px;
+    letter-spacing: -0.03em;
     text-align: left;
     color: #000;
   }
@@ -657,17 +663,17 @@ footer {
   #footer-bottom #footer-img {
     width: 250px;
     height: 42px;
-    flex-basis: 35%;
+    flex-basis: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   #footer-bottom-sub {
-    flex-basis: 65%;
+    flex-basis: 55%;
   }
 
   footer {
-    padding-bottom: 1%;
+    padding-bottom: 0.1%;
   }
 }

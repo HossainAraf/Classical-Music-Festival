@@ -1,6 +1,6 @@
 // Humbarger Menu
 const menu = document.querySelector('#menu');
-const humbargerIcon = document.querySelector('.fa-solid');
+const humbargerIcon = document.querySelector('.fa-bars');
 const cancelIcon = document.querySelector('.fa-xmark');
 
 function show() {
@@ -31,35 +31,35 @@ const featuresList = [
     desc: ' She is regarded as a legendary Tagore singer by Tagore music aficionados all around the world.',
   },
   {
-    id: 0,
+    id: 1,
     photo: 'img/Nicky.jpg',
     name: 'Nicola Joy Nadia Benedetti',
     desig: 'Italian-Scottish classical solo violinist and festival director.',
     desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
   },
   {
-    id: 0,
+    id: 2,
     photo: 'img/Nicky.jpg',
     name: 'Nicola Joy Nadia Benedetti',
     desig: 'Italian-Scottish classical solo violinist and festival director.',
     desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
   },
   {
-    id: 0,
+    id: 3,
     photo: 'img/Nicky.jpg',
     name: 'Nicola Joy Nadia Benedetti',
     desig: 'Italian-Scottish classical solo violinist and festival director.',
     desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
   },
   {
-    id: 0,
+    id: 4,
     photo: 'img/Nicky.jpg',
     name: 'Nicola Joy Nadia Benedetti',
     desig: 'Italian-Scottish classical solo violinist and festival director.',
     desc: 'She works with orchestras in Europe and America as well as with Alexei Grynyuk, her regular pianist. Since 2012.',
   },
   {
-    id: 0,
+    id: 5,
     photo: 'img/Nicky.jpg',
     name: 'Nicola Joy Nadia Benedetti',
     desig: 'Italian-Scottish classical solo violinist and festival director.',

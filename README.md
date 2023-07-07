@@ -1,5 +1,5 @@
-# Portfolio-Mobile-First
-It is an assignment given by Microverse.  Capstone project-1.
+# Capstone-1
+It is an assignment given by Microverse.
 <a name="readme-top"></a>
 
 <div align="center">
@@ -97,7 +97,7 @@ To run the project, execute the following:
 
 Open index.html file either directly or using live server 
 
-<!-- AUTHORS -->
+<!-- AUTHORS  & Credit-->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -106,6 +106,8 @@ Open index.html file either directly or using live server
 - GitHub: <a href="https://github.com/HossainAraf">HossainAraf </a>
 - LinkedIn: <a href="https://linkedin.com/in/md-arafat-hossain-111403275"> Md. Arafat Hossain </a>
 
+## -Credit: <a href = "https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>, as required by the <a href="https://creativecommons.org/licenses/"> Creative Commons License</a>.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -113,8 +115,10 @@ Open index.html file either directly or using live server
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
-- [ ] Add footer
 - [ ] Add more pages
+- [ ] Add interactive features
+- [ ] Add accessibility features
+- [ ] Add links 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
