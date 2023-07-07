@@ -50,6 +50,7 @@ nav {
 
 #logo {
   display: none;
+  z-index: 9999;
 }
 
 #menu {
@@ -411,6 +412,7 @@ footer {
     height: 2rem;
     flex-basis: 20%;
     padding-left: 9%;
+    z-index: 999999;
   }
 
   .fa-bars {

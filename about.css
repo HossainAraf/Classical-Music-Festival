@@ -250,4 +250,9 @@
   #footer-bottom #footer-bottom-sub h6 {
     color: #fff;
   }
+
+  #logo a {
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
