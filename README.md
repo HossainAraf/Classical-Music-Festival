@@ -1,5 +1,4 @@
-# Capstone-1
-It is an assignment given by Microverse.
+# Classical Music festival
 <a name="readme-top"></a>
 
 <div align="center">
@@ -30,7 +29,7 @@ It is an assignment given by Microverse.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: Mobile First <a name="about-project"></a>
+# 📖  Classical Music festival <a name="about-project"></a>
 
 > 'Portfolio: Mobile First' is a personal portfolio project using html and css.
 # 📗 [Live Demo](https://hossainaraf.github.io/capstone-1/)
