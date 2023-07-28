@@ -12,7 +12,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [video description](#video-description)
+    <!--- [video description](#video-description) -->
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -31,7 +31,6 @@
 
 # 📖  Classical Music festival <a name="about-project"></a>
 
-> 'Portfolio: Mobile First' is a personal portfolio project using html and css.
 # 📗 [Live Demo](https://hossainaraf.github.io/capstone-1/)
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
@@ -48,8 +47,8 @@
   </ul>
 </details>
 
-##Video description 
- <a href="#"Portfolio </a>
+<!--##Video description -->
+ <a href="#"> </a>
  
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
