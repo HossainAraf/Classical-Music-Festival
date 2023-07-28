@@ -2,7 +2,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio</b></h3>
+  <h3><b></b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
