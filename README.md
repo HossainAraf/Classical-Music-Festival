@@ -31,7 +31,7 @@
 
 # 📖  Classical Music festival <a name="about-project"></a>
 
-# 📗 [Live Demo](https://hossainaraf.github.io/capstone-1/)
+# 📗 [Live Demo](https://hossainaraf.github.io/Classical-Music-Festival/)
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
